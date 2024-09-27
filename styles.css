@@ -1,0 +1,143 @@
+
+body {
+    background-image: url("bg_photo.png");
+    background-attachment: scroll;
+    background-size: auto;
+  }
+
+ .breadcrumb {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+   
+  }
+
+  .breadcrumb li a {
+    color: black;
+  }
+
+  .breadcrumb li a:hover {
+    color:#93c54b;
+    text-decoration: underline;
+  }
+
+  nav {
+    position: relative;
+    text-align: center;
+  }
+
+  
+  h1 {
+    text-align: center;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 10%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+  }
+
+  h4 {
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  ul li {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+
+  li {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  list, ul {
+    text-align: center;
+    list-style-position: inside 
+  }
+
+
+  a {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    display: inline;
+    list-style-type: none;
+  }
+
+  a:hover {
+    color: #ea955d;
+  }
+
+
+  img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+  table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+   }
+
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+ form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+  }
+
+  input {
+    width: 90%;
+    padding: auto;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-child {
+  padding: 1%;
+  text-align: center;
+}  
+
+
+.flex-child:first-child {
+  margin-right: 5px;
+  margin-left: 5px;
+} 
+
+i {
+  padding: 0.5%;
+}
+
